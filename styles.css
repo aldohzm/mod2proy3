@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+header {
+    background-color: #3c6e71 !important;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #2a4d50;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: #d9d9d9;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+}
+
+#inicio {
+    background-color: #d9d9d9;
+    text-align: center;
+}
+
+#productos {
+    background-color: #f3f3f3;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #3c6e71;
+    padding: 0.5em;
+    background-color: #fff;
+}
+
+#contacto {
+    background-color: #e0ece4;
+    text-align: center;
+}
+
+footer {
+    background-color: #2a4d50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.galeria img {
+    border: 5px solid #3c6e71;
+    padding: 10px;
+    margin: 10px;
+}
+
+#inicio p {
+    margin: 10px 5px 20px 15px;
+}
